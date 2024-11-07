@@ -68,7 +68,7 @@ body{
     background-color: white;
     border: solid white;
     width: 80%;
-    padding: 4.4% 0rem;
+    padding: 3% 0rem;
     margin-left: 20%;
     margin-right: 1rem;
 }
@@ -84,9 +84,15 @@ body{
 }
 footer nav{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
     padding: 1rem;
     background-color: #BCCDE9;
     margin-right: 10.7%;
     margin-left: 18.4%;
+}
+.cor{
+    color: #E33FB4;
+    font-weight: 600;
 }
