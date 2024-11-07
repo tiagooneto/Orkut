@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "angel" ;
+    src: url(./Assets/fonts/Hello\ Angel.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    width: ;: 100%;
+    background-color: #D4DDEE;
+
+}
+.geral{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: D4DDEE;
+    padding: 1rem;
+    margin-right: 10%;
+    margin-top: 8%;
+
+}
+.lado-esquerdo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.login-orkut{
+    padding: 1rem;
+    border: solid white;
+    background-color: #D4DDEE;
+    
+
+}
+.login-orkut h2{
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+
+}
+.login-orkut a{
+    display: flex;
+    justify-content: center;
+}
+.membros{
+    text-align: center;
+    padding: 1rem;
+    border: solid white;
+    
+
+}
+.membros h2{
+    font-size: 1.4rem;
+    padding-bottom: .5rem;
+    font-weight: 500;
+}
+.membros a{
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+.orkut{
+    background-color: white;
+    border: solid white;
+    width: 80%;
+    padding: 4.4% 0rem;
+    margin-left: 20%;
+    margin-right: 1rem;
+}
+.orkut h1{
+    font-family: angel;
+    font-size: 10rem;
+    color: #E33FB4;
+    text-align: center;
+}
+.texto{
+    font-size: 1.2rem;
+    text-align: center;
+}
+footer nav{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #BCCDE9;
+    margin-right: 10.7%;
+    margin-left: 18.4%;
+}
